@@ -1,0 +1,890 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+     font-family: "Roboto", sans-serif;
+}
+
+#home {
+     height: 100vh;
+     width: 100%
+}
+
+#home .nav-bar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border: 1px solid rgba(12, 12, 12, 0.532);
+     border-radius: 15px;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 10px;
+     background-color: rgba(246, 247, 248, 0.907);
+}
+
+#home .text {
+     display: flex;
+     gap: 10px;
+}
+
+#home .text span {
+     font-size: 25px;
+}
+
+#home .nav-bar ul {
+     list-style: none;
+     display: flex;
+     width: 40%;
+}
+
+#home .nav-bar a {
+     text-decoration: none;
+     color: black;
+     padding: 10px;
+}
+
+#home .nav-bar i {
+     font-size: 40px;
+     transition: all 0.3s ease;
+     box-shadow: 0 4px 10px rgba(247, 246, 246, 0.1);
+}
+
+#home .nav-bar i:hover {
+     transform: translateY(-4px) scale(1.05);
+     background-color: #f6f6f7;
+     box-shadow: 0 10px 20px rgba(247, 246, 246, 0.2)
+}
+
+#home .nav-bar i:active {
+     transform: translateY(-1px) scale(1.02);
+     box-shadow: 0 5px 10px rgba(254, 253, 253, 0.15)
+}
+
+#home .nav-bar img {
+     height: 40px;
+     width: 40px;
+     display: inline-block;
+     border-radius: 10px;
+}
+
+#home .hero-section img {
+     width: 95%;
+     height: 100vh;
+     margin: auto;
+     border-radius: 15px;
+     margin-bottom: 70px;
+}
+
+#home .box-float {
+     position: absolute;
+     bottom: 15px;
+     right: 15px;
+     left: 15px;
+     background: rgba(255, 255, 255, 0.75);
+     backdrop-filter: blur(12px);
+     padding: 15px 15px;
+     border-radius: 16px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 15px;
+     margin-bottom: 15px;
+     height: 50px;
+     transition: all 0.3s ease;
+     box-shadow: 0 4px 10px rgba(248, 248, 248, 0.566);
+     width: 90%;
+     margin: 15px auto;
+}
+
+#home .box-float:hover {
+     transform: translateY(-4px) scale(1.05);
+     background-color: #f9f9f9;
+     box-shadow: 0 10px 20px rgba(253, 253, 253, 0.656)
+}
+
+#home .box-float:active {
+     transform: translateY(-1px) scale(1.02);
+     box-shadow: 0 5px 10px rgba(248, 248, 248, 0.488)
+}
+
+#home .box-float .icon i {
+     font-size: x-large;
+     color: aliceblue;
+     background-color: rgb(91, 140, 124);
+     border-radius: 10px;
+     padding: 10px;
+}
+
+/* ==========present=========== */
+#present .present {
+     text-align: right;
+     margin-top: 70px;
+}
+
+#present .present span {
+     background-color: rgb(152, 217, 195);
+     font-weight: 500;
+     padding: 7px;
+     border-radius: 10px;
+     margin-top: 10px;
+}
+
+#present .setion .f-part {
+     display: flex;
+     justify-content: right;
+     align-items: right;
+}
+
+#present .setion .f-part i {
+     background-color: rgb(49, 69, 63);
+     color: antiquewhite;
+     margin-left: 10px;
+     border-radius: 10px;
+     padding: 15px 20px;
+     transition: all 0.3s ease;
+     box-shadow: 0 4px 10px rgba(157, 228, 237, 0.1);
+}
+
+#present .setion .f-part i:hover {
+     transform: translateY(-4px) scale(1.05);
+     background-color: #637c79;
+     box-shadow: 0 10px 20px rgba(167, 224, 217, 0.515)
+}
+
+#present .setion .f-part i:active {
+     transform: translateY(-1px) scale(1.02);
+     box-shadow: 0 5px 10px rgba(155, 215, 215, 0.15)
+}
+
+#present .setion .s-part {
+     display: flex;
+     justify-content: right;
+     margin-top: 10px;
+     margin-bottom: 70px;
+}
+
+#present .setion .balls {
+     display: flex;
+     direction: rtl;
+     margin: auto 5px;
+}
+
+#present .setion .s-part p {
+     padding: 7px;
+}
+
+#present .setion .s-part .red-ball {
+     background-color: rgb(154, 61, 61);
+     color: #ffffff;
+     border-radius: 50%;
+     width: 20px;
+     height: 24px;
+     padding: 4px;
+     text-align: center;
+     border: 2px solid #ffffff;
+
+     margin-left: -9px;
+}
+
+#present .setion .s-part .black-ball {
+     background-color: rgb(10, 10, 10);
+     color: #ffffff;
+     border-radius: 50%;
+     width: 10px;
+     padding: 4px;
+     height: 24px;
+     width: 20px;
+     text-align: center;
+     margin-left: -9px;
+     border: 2px solid #ffffff;
+}
+
+#present .setion .s-part .green-ball {
+     background-color: rgb(49, 69, 63);
+     border-radius: 50%;
+     width: 20px;
+     height: 24px;
+     padding: 4px;
+     color: #ffffff;
+     text-align: center;
+     margin-left: -9px;
+     border: 2px solid #ffffff;
+}
+
+/* =======sevices========= */
+#sevices .content {
+     background-color: #ddd3d3;
+     padding-top: 10px;
+     margin-bottom: 70px;
+}
+
+#sevices .text {
+     text-align: right;
+     justify-content: right;
+}
+
+#sevices .cards {
+     display: flex;
+}
+
+#sevices .card1 {
+     border-radius: 10px;
+     background-color: #ffffff;
+     padding: 10px;
+     transition: all 0.3s ease;
+     box-shadow: 0 4px 10px rgba(247, 246, 246, 0.1);
+     width: 50%;
+     height: auto;
+     margin: 10px;
+     direction: rtl;
+     text-align: right;
+     flex-direction: column;
+     align-items: flex-start;
+}
+
+#sevices .card1:hover {
+     transform: translateY(-4px) scale(1.05);
+     background-color: #fbfbfcb7;
+     box-shadow: 0 10px 20px rgba(245, 244, 244, 0.2)
+}
+
+#sevices .card1:active {
+     transform: translateY(-1px) scale(1.02);
+     box-shadow: 0 5px 10px rgba(253, 253, 253, 0.15)
+}
+
+#sevices .card1 i {
+     background-color: rgb(126, 188, 168);
+     border-radius: 15px;
+     padding: 10px;
+     color: #1c4049;
+}
+
+#sevices .card2 {
+     border-radius: 10px;
+     background-color: #ffffff;
+     padding: 10px;
+     transition: all 0.3s ease;
+     box-shadow: 0 4px 10px rgba(253, 251, 251, 0.1);
+     width: 50%;
+     height: auto;
+     margin: 10px;
+     text-align: right;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     direction: rtl;
+}
+
+#sevices .card2:hover {
+     transform: translateY(-4px) scale(1.05);
+     background-color: #fbfbfcb7;
+     box-shadow: 0 10px 20px rgba(247, 246, 246, 0.2)
+}
+
+#sevices .card2:active {
+     transform: translateY(-1px) scale(1.02);
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15)
+}
+
+#sevices .card2 i {
+     background-color: rgb(210, 159, 175);
+     border-radius: 15px;
+     padding: 10px;
+     color: rgb(104, 55, 71);
+}
+
+#sevices .card3 {
+     border-radius: 10px;
+     background-color: #ffffff;
+     padding: 10px;
+     transition: all 0.3s ease;
+     box-shadow: 0 4px 10px rgba(250, 248, 248, 0.1);
+     width: 50%;
+     height: auto;
+     margin: 10px;
+     direction: rtl;
+     text-align: right;
+     flex-direction: column;
+     align-items: flex-start;
+}
+
+#sevices .card3:hover {
+     transform: translateY(-4px) scale(1.05);
+     background-color: #fbfbfcb7;
+     box-shadow: 0 10px 20px rgba(251, 251, 251, 0.2)
+}
+
+#sevices .card3:active {
+     transform: translateY(-1px) scale(1.02);
+     box-shadow: 0 5px 10px rgba(254, 253, 253, 0.15)
+}
+
+#sevices .card3 i {
+     background-color: rgb(123, 154, 179);
+     border-radius: 15px;
+     padding: 10px;
+     color: #173359;
+}
+
+#sevices .card4 {
+     border-radius: 10px;
+     background-color: #ffffff;
+     padding: 10px;
+     transition: all 0.3s ease;
+     box-shadow: 0 4px 10px rgba(254, 254, 254, 0.1);
+     width: 50%;
+     height: auto;
+     margin: 10px;
+     direction: rtl;
+     text-align: right;
+     flex-direction: column;
+     align-items: flex-start;
+}
+
+#sevices .card4:hover {
+     transform: translateY(-4px) scale(1.05);
+     background-color: #fbfbfcb7;
+     box-shadow: 0 10px 20px rgba(248, 246, 246, 0.2)
+}
+
+#sevices .card4:active {
+     transform: translateY(-1px) scale(1.02);
+     box-shadow: 0 5px 10px rgba(255, 254, 254, 0.15)
+}
+
+#sevices .card4 i {
+     background-color: rgb(200, 148, 159);
+     border-radius: 15px;
+     padding: 10px;
+     color: #9a4e5c;
+}
+
+#sevices .card5 {
+     border-radius: 10px;
+     background-color: #ffffff;
+     padding: 10px;
+     transition: all 0.3s ease;
+     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+     width: 50%;
+     height: auto;
+     margin: 10px;
+     direction: rtl;
+     text-align: right;
+     flex-direction: column;
+     align-items: flex-start;
+}
+
+#sevices .card5:hover {
+     transform: translateY(-4px) scale(1.05);
+     background-color: #fbfbfcb7;
+     box-shadow: 0 10px 20px rgba(254, 253, 253, 0.2)
+}
+
+#sevices .card5:active {
+     transform: translateY(-1px) scale(1.02);
+     box-shadow: 0 5px 10px rgba(255, 255, 255, 0.15)
+}
+
+#sevices .card5 i {
+     background-color: #e4bad4;
+     border-radius: 15px;
+     padding: 10px;
+     color: #8a3c6c;
+}
+
+#sevices .card6 {
+     border-radius: 10px;
+     background-color: #ffffff;
+     padding: 10px;
+     transition: all 0.3s ease;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+     width: 50%;
+     height: auto;
+     margin: 10px;
+     direction: rtl;
+     text-align: right;
+     flex-direction: column;
+     align-items: flex-start;
+}
+
+#sevices .card6:hover {
+     transform: translateY(-4px) scale(1.05);
+     background-color: #fbfbfcb7;
+     box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2)
+}
+
+#sevices .card6:active {
+     transform: translateY(-1px) scale(1.02);
+     box-shadow: 0 5px 10px rgba(255, 255, 255, 0.15)
+}
+
+#sevices .card6 i {
+     background-color: rgb(126, 188, 168);
+     border-radius: 15px;
+     padding: 10px;
+}
+
+/* ======works========== */
+#works .content {
+     background-color: #212831;
+     border-radius: 10px;
+     margin: 40px 15px 30px 15px;
+     padding-top: 30px;
+     padding-bottom: 20px;
+     padding-left: 20px;
+     padding-right: 20px;
+     margin-bottom: 70px;
+}
+
+#works .parts {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     color: #f0f0f1;
+     font-family: serif;
+     font-size: 38px;
+     text-align: center;
+     width: 70%;
+     text-align: center;
+     margin: auto;
+}
+
+#works .parts .part1 {
+     text-align: right;
+}
+
+#works .parts .part2 {
+     text-align: right;
+}
+
+#works .parts h2 {
+     text-align: center;
+     font-size: 50px;
+}
+
+/* ===================== */
+#reviews .pre {
+     display: flex;
+     justify-content: space-between;
+}
+
+#reviews .content {
+     background-color: #e1e1e1;
+     border-radius: 10px;
+     padding: 25px 15px 15px;
+     margin-bottom: 70px;
+}
+
+#reviews .card {
+     background-color: #f8f8f8;
+     border-radius: 10px;
+     margin-right: 30px;
+     margin-left: 30px;
+     padding: 10px 19px;
+     margin-top: 20px;
+     margin-bottom: 25px;
+     text-align: right;
+     direction: rtl;
+     transition: all 0.3s ease;
+     box-shadow: 0 4px 10px rgba(254, 254, 254, 0.879);
+}
+
+#reviews .card:hover {
+     transform: translateY(-4px) scale(1.05);
+     background-color: #f2f1f6;
+     box-shadow: 0 10px 20px rgba(248, 246, 246, 0.916)
+}
+
+#reviews .card:active {
+     transform: translateY(-1px) scale(1.02);
+     box-shadow: 0 5px 10px rgba(255, 255, 255, 0.845)
+}
+
+#reviews .card i {
+     color: #ecb73b;
+}
+
+#reviews .card img {
+     height: 40px;
+     width: 40px;
+     border-radius: 20px;
+}
+
+#s-scrip .content {
+     background-color: #cbb278;
+     margin: 20px;
+     padding: 10px;
+     margin-top: 35px;
+     margin-right: 4px;
+     margin-bottom: 40px;
+     margin-left: 4px;
+     border-radius: 10px;
+     height: auto;
+
+}
+
+#s-scrip .parts {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 30px 30px 0 30px;
+}
+
+#s-scrip .parts .part2 {
+     direction: rtl;
+     text-align: right;
+}
+
+#s-scrip .parts .part1 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+#s-scrip .parts .part2 span {
+     display: flex;
+     justify-content: right;
+     align-items: right;
+     background-color: #bf7347;
+     padding: 8px;
+     border-radius: 15px;
+     color: #fffefe;
+     width: 30px;
+     text-align: center;
+     justify-content: center;
+}
+
+#s-scrip .parts i {
+     background-color: #301204;
+     padding: 10px;
+     color: #ffffff;
+     border-radius: 10px;
+     font-size: 30px;
+     transition: all 0.3s ease;
+     box-shadow: 0 4px 10px rgba(254, 254, 254, 0.1);
+}
+
+#s-scrip .parts i:hover {
+     transform: translateY(-4px) scale(1.05);
+     background-color: #301204;
+     box-shadow: 0 10px 20px #301204
+}
+
+#s-scrip .parts i:active {
+     transform: translateY(-1px) scale(1.02);
+     box-shadow: 0 5px 10px #301204
+}
+
+footer {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-bottom: 2px;
+     margin-top: 180px;
+}
+
+@media(min-width:320px) and (max-width:480px) {
+     #home .nav-bar {
+          width: 300px;
+          padding: 5px;
+     }
+
+     #home .nav-bar img {
+          height: 30px;
+          width: 30px;
+     }
+
+     #home .nav-bar i {
+          font-size: 30px;
+     }
+
+     #home .box-float {
+          width: 280px;
+     }
+
+     #home .box-float .icon i {
+          font-size: larger;
+          padding: 8px;
+     }
+
+     #home .box-float .box-text h3 {
+          font-size: medium;
+     }
+
+     #home .box-float .box-text p {
+          font-size: small;
+     }
+
+     #present .present span {
+          font-size: x-small;
+     }
+
+     #present .present h2 {
+          font-size: large;
+     }
+
+     #present .present p {
+          font-size: smaller;
+     }
+
+     #present .setion .f-part i {
+          padding: 10px 15px 7px;
+          height: 20px;
+     }
+
+     #sevices .text p {
+          font-size: small;
+     }
+
+     #sevices .card1 h2 {
+          font-size: medium;
+     }
+
+     #sevices .card1 p {
+          font-size: small;
+     }
+
+     #sevices .card1 i {
+          font-size: medium;
+          padding: 10px;
+     }
+
+     #sevices .card2 h2 {
+          font-size: medium;
+     }
+
+     #sevices .card2 p {
+          font-size: small;
+     }
+
+     #sevices .card2 i {
+          font-size: medium;
+          padding: 10px;
+     }
+
+     #sevices .card3 h2 {
+          font-size: medium;
+     }
+
+     #sevices .card3 p {
+          font-size: small;
+     }
+
+     #sevices .card3 i {
+          font-size: medium;
+          padding: 10px;
+     }
+
+     #sevices .card4 h2 {
+          font-size: medium;
+     }
+
+     #sevices .card4 p {
+          font-size: small;
+     }
+
+     #sevices .card4 i {
+          font-size: medium;
+          padding: 10px;
+     }
+
+     #sevices .card5 h2 {
+          font-size: medium;
+     }
+
+     #sevices .card5 p {
+          font-size: small;
+     }
+
+     #sevices .card5 i {
+          font-size: medium;
+          padding: 10px;
+     }
+
+     #sevices .card6 h2 {
+          font-size: medium;
+     }
+
+     #sevices .card6 p {
+          font-size: small;
+     }
+
+     #sevices .card6 i {
+          font-size: medium;
+          padding: 10px;
+     }
+
+     #works .parts h2 {
+          font-size: x-large;
+     }
+
+     #works .parts p {
+          font-size: x-small;
+     }
+
+     #reviews .card i {
+          font-size: small;
+     }
+
+     #reviews .pre p {
+          font-size: x-small;
+          max-width: 170px;
+     }
+
+     #reviews .pre h2 {
+          font-size: medium;
+     }
+
+     #reviews .card p {
+          font-size: x-small;
+     }
+
+     #reviews .card img {
+          height: 30px;
+          width: 30px;
+     }
+
+     #reviews .card h4 {
+          font-size: smaller;
+     }
+
+     #s-scrip .parts .part1 i {
+          font-size: larger;
+     }
+
+     #s-scrip .parts .part2 h2 {
+          font-size: large;
+     }
+
+     #s-scrip .parts .part2 p {
+          font-size: small;
+     }
+
+     footer p {
+          font-size: x-small;
+     }
+}
+
+@media(min-width:481px)and (max-width:767px) {
+     #home .nav-bar img {
+          height: 35px;
+          width: 35px;
+     }
+
+     #home .nav-bar i {
+          font-size: 35px;
+     }
+
+     #home .box-float {
+          width: 330px;
+     }
+
+     #present .present span {
+          font-size: small;
+     }
+
+     #present .present h2 {
+          font-size: larger;
+     }
+
+     #present .present p {
+          font-size: small;
+     }
+
+     #sevices .text p {
+          font-size: small;
+     }
+
+     #sevices .card1 h2 {
+          font-size: large;
+     }
+
+     #sevices .card1 p {
+          font-size: medium;
+     }
+
+     #sevices .card2 h2 {
+          font-size: large;
+     }
+
+     #sevices .card2 p {
+          font-size: medium;
+     }
+
+     #sevices .card3 h2 {
+          font-size: large;
+     }
+
+     #sevices .card3 p {
+          font-size: medium;
+     }
+
+     #sevices .card4 h2 {
+          font-size: large;
+     }
+
+     #sevices .card4 p {
+          font-size: medium;
+     }
+
+     #sevices .card5 h2 {
+          font-size: large;
+     }
+
+     #sevices .card5 p {
+          font-size: medium;
+     }
+
+     #sevices .card6 h2 {
+          font-size: large;
+     }
+
+     #sevices .card6 p {
+          font-size: medium;
+     }
+
+     #works .parts h2 {
+          font-size: xx-large;
+     }
+
+     #works .parts p {
+          font-size: small;
+     }
+
+     #reviews .pre p {
+          font-size: small;
+          max-width: 200px;
+     }
+
+     #reviews .pre h2 {
+          font-size: larger;
+     }
+
+     #reviews .card p {
+          font-size: small;
+     }
+
+     #reviews .card img {
+          height: 35px;
+          width: 35px;
+     }
+
+     #reviews .card h4 {
+          font-size: small;
+     }
+
+     #s-scrip .parts .part1 i {
+          font-size: larger;
+     }
+
+     #s-scrip .parts .part2 h2 {
+          font-size: larger;
+     }
+
+     #s-scrip .parts .part2 p {
+          font-size: small;
+     }
+
+     footer p {
+          font-size: small;
+     }
+}
